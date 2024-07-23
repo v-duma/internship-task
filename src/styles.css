@@ -59,7 +59,9 @@ header {
 .footer-p-desktop,
 .pages-service-contact-block,
 .get-started-block,
-.great-overview-span-desktop {
+.great-overview-span-desktop,
+.icons-block-only-desktop,
+.clients-and-orders-only-desktop {
   display: none;
 }
 .logo-div {
@@ -1382,7 +1384,7 @@ footer {
     width: 274px;
     height: 256px;
     margin-top: 112px;
-    margin-left: -165px;
+    margin-left: -135px;
   }
 
   .diagram-block {
@@ -1393,7 +1395,7 @@ footer {
     width: 205px;
     height: 278px;
     margin-top: 202px;
-    margin-left: 392px;
+    margin-left: 405px;
     font-size: 16px;
   }
 
@@ -1401,7 +1403,7 @@ footer {
     position: absolute;
     z-index: 4;
     margin-top: 288px;
-    margin-left: 705px;
+    margin-left: 715px;
     flex-direction: column;
     gap: 32px;
   }
@@ -1414,7 +1416,7 @@ footer {
     padding: 32px 16px;
     width: 274px;
     height: 282px;
-    margin-left: 843px;
+    margin-left: 850px;
     margin-top: 0;
   }
 
@@ -1433,13 +1435,40 @@ footer {
     position: absolute;
     z-index: 7;
     margin-top: 378px;
-    margin-left: 643px;
+    margin-left: 646px;
     border: 1px solid var(--background-color);
     border-radius: 14px;
     padding: 21px 16px;
     width: 224px;
     height: 75px;
     gap: 7px;
+  }
+  .clients-and-orders-only-desktop {
+    margin-left: -69px;
+    margin-top: 170px;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 16px;
+  }
+
+  .icons-block-only-desktop {
+    position: absolute;
+    z-index: 7;
+    background-color: var(--element-background-color);
+    width: 274px;
+    height: 170px;
+    padding: 21px 16px;
+    border-radius: 20px;
+    display: block;
+    margin-left: -270;
+    margin-top: 320px;
+  }
+  .icons-block-list {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .payment-block > p,
@@ -1534,6 +1563,21 @@ footer {
     line-height: 178%;
   }
 
+  .clients-and-orders-only-desktop > span {
+    width: auto;
+  }
+
+  .clients-and-orders-only-desktop > p {
+    margin-right: 12px;
+  }
+  .clients-and-orders-only-desktop {
+    margin-left: -93px;
+    margin-top: 170px;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 16px;
+  }
   .manager-img {
     border-radius: 20px;
     width: 32px;
@@ -2416,7 +2460,29 @@ footer {
   .clients-and-orders-item > span {
     line-height: 267%;
   }
+  .clients-and-orders-only-desktop > span {
+    width: auto;
+  }
 
+  .clients-and-orders-only-desktop > p {
+    margin-right: 12px;
+  }
+  .clients-and-orders-only-desktop {
+    margin-left: -130px;
+    margin-top: 260px;
+  }
+
+  .icons-block-only-desktop {
+    height: 210px;
+    margin-left: -270;
+    margin-top: 470px;
+  }
+  .icons-block-list {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
   .manager-img {
     width: 48px;
     height: 48px;
