@@ -842,13 +842,21 @@ main {
 
 /* FOOTER */
 footer {
-  padding: 24px 16px;
+  padding: 24px 0px;
   background-color: var(--cart-fon-color);
+  width: 100%;
+  left: 0;
+  position: absolute;
+  margin-top: 84px;
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 358px;
+  margin: auto;
 }
-
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -1242,11 +1250,20 @@ footer {
   }
 
   /* FOOTER (min-width: 428px)*/
+  footer {
+    margin-top: 92px;
+  }
+
+  .footer-content {
+    width: 396px;
+    margin: auto;
+  }
+
   .menu {
     height: 142px;
   }
 
-  footer > .logo-div {
+  .footer-content > .logo-div {
     width: 110px;
   }
 
@@ -2122,7 +2139,14 @@ footer {
   /* FOOTER (min-width: 1280px)*/
   footer {
     padding: 41px 153px 83px 53px;
+    margin-top: 272px;
   }
+
+  .footer-content {
+    width: 1280px;
+    margin: auto;
+  }
+
   .footer-p-desktop {
     display: block;
     width: 247px;
@@ -2170,7 +2194,7 @@ footer {
     align-items: flex-start;
   }
 
-  footer > .logo-div {
+  .footer-content > .logo-div {
     font-size: 13px;
     width: 90px;
     gap: 16px;
@@ -2856,6 +2880,12 @@ footer {
   footer {
     padding: 62px 229px 124px 80px;
   }
+
+  .footer-content {
+    width: 1920px;
+    margin: auto;
+  }
+
   .footer-p-desktop {
     width: 371px;
   }
@@ -2876,7 +2906,7 @@ footer {
     gap: 8px;
   }
 
-  footer > .logo-div {
+  .footer-content > .logo-div {
     font-size: 20px;
     gap: 24px;
   }
